@@ -1,0 +1,211 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(17,17,17,0.75);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+.dropdown {
+    display: inline-block;
+  }
+  
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background-color: #212529;
+    min-width: 180px;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content li {
+      list-style: none;
+        margin: 10px;
+}
+.list-group ul li{
+    list-style: none;
+}
+.list-group ul li a{
+    color: black;
+    
+}
+.footer{
+    padding: 30px 30px;
+}
+.footer form{
+    width: 100%;
+}
+.footer li{
+    list-style: none;
+    
+}
+.footer li a{
+    text-decoration: none;
+    color: #787878;
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+}
+.contact{
+    margin-bottom: 20px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.background{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-img-overlay{
+    padding-top: 75%;
+}
+.container .row .col-6{
+    margin-bottom: 30px;
+}
+.carousel-inner .row .col-3 img{
+    width: 100%;
+}
+.img a{
+    text-decoration: none;
+    color: black;
+}
+.text-center p{
+    margin-top: 15px;
+}
+.cuahang{
+    padding-top: 100px;padding-bottom: 100px;
+}
+
+.img a p:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+.img img:hover{
+    transform: scale(1.05);
+    transition: ease 0.5s;
+}
+.carousel-inner img{
+    width: 100%;
+}
+@media(max-width: 992px){
+    .btn-outline-light{
+        font-size: 100%;
+    }
+    .btn-outline-dark{
+        font-size: 100%;
+    }
+    .card-img-overlay{
+        padding-top: 70%;
+    }
+    .cuahang{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .dropdown-content{
+        display: none;
+        position:absolute;
+        background-color: #212529;
+        min-width: 700px;
+        top: -10px;
+        left: 70px;
+    }
+    .dropdown:hover .dropdown-content li a{
+        float:left;
+        padding: 10px;
+        
+    }
+}
+.animate__fadeInLeft, .animate__fadeInRight{
+    --animate-duration: 3s;
+}
+ul li{
+    list-style: none;
+}
+.container-fluid a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.gia{
+    text-align: right;
+}
+
+.fa-map-marker-alt, .fa-mobile, .fa-envelope{
+    color: #f23534;
+    padding-right: 5px;
+}
+@media(max-width: 768px){
+    .btn-outline-light {
+        font-size: 70%;
+    }
+    .btn-outline-dark{
+        font-size: 70%;
+    }
+    .card-img-overlay{
+        padding-top: 60%;
+    }
+    .cuahang{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .dropdown-content{
+        display: none;
+        position:absolute;
+        background-color: #212529;
+        min-width: 500px;
+        top: -10px;
+        left: 70px;
+    }
+    .dropdown:hover .dropdown-content li a, .list-group ul li a{
+        float:left;
+        padding: 10px;
+        
+    }
+}
+
+@media(max-width: 576px){
+    .btn-outline-light{
+        font-size: 50%;
+    }
+    .btn-outline-dark{
+        font-size: 50%;
+    }
+    .card-img-overlay{
+        padding-top: 50%;
+    }
+    .cuahang{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .dropdown-content{
+        display: none;
+        position:absolute;
+        background-color: #212529;
+        min-width: 350px;
+        top: -10px;
+        left: 70px;
+    }
+    .dropdown:hover .dropdown-content li a, .list-group ul li a{
+        float:left;
+        padding: 10px;
+        
+    }
+    
+}
